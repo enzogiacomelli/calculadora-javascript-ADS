@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+</head>
+<body>
+    
+    <div class="container">
+        <label for="num1">Valor 1:</label>
+        <input type="text" id="num1" name="num1" value=""><br>
+        <label for="num1">Valor 2:</label>
+        <input type="text" id="num2" name="num2" value=""><br><br>
+
+        <input type="button" onclick="soma()" value="Soma">
+        <input type="button" onclick="subtracao()" value="Subtração">
+        <input type="button" onclick="divisao()" value="Divisão">
+        <input type="button" onclick="multiplicacao()" value="Multiplicação">
+
+        <br><br>
+        <label for="num1">Resultado:</label>
+        <input type="text" id="Resultado" name="Resultado" value=""><br>
+    </div>
+
+
+    <div id="historico" class="container">
+        <p id="p1">Histórico:</p>
+    </div>
+
+</body>
+</html>

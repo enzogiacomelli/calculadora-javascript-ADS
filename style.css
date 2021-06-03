@@ -1,0 +1,14 @@
+div{
+    text-align: center;
+    background-color: azure;
+}
+
+.container
+{
+    margin-left: 600px;
+    margin-right: 600px;
+}
+
+p{
+    text-align: center;
+}
